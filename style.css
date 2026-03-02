@@ -335,6 +335,14 @@ a {
   color: #d7e8ff;
 }
 
+.hq-caption a {
+  margin-left: 0.5rem;
+  color: #fff4cf;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .split {
   display: grid;
   gap: 1.6rem;
@@ -831,7 +839,6 @@ body[data-theme="dark"] .site-footer {
     transform: none;
   }
 }
-
 
 
 
