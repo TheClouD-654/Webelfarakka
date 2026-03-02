@@ -1,9 +1,9 @@
 ﻿:root {
   --primary: #0b3d91;
   --primary-dark: #072b67;
-  --secondary: #ffffff;
+  --secondary: #fff4e2;
   --accent-a: #d9ebff;
-  --accent-b: #fff7e8;
+  --accent-b: #fff2dc;
   --text: #1b2a41;
   --muted: #5f6f88;
   --border: #d6e3f7;
@@ -26,7 +26,7 @@ body {
   margin: 0;
   font-family: "Source Sans 3", sans-serif;
   color: var(--text);
-  background: linear-gradient(180deg, #f6f9ff 0%, #f9fbff 50%, #f5f8ff 100%);
+  background: linear-gradient(180deg, #f8f3e8 0%, #fbf6ec 52%, #f5f0e4 100%);
   line-height: 1.6;
 }
 
@@ -127,8 +127,8 @@ a {
   top: 0;
   z-index: 50;
   backdrop-filter: blur(8px);
-  background: rgba(255, 242, 221, 0.94);
-  border-bottom: 1px solid #e8eef8;
+  background: rgba(226, 250, 255, 0.94);
+  border-bottom: 1px solid #e6dcc9;
   box-shadow: 0 8px 22px rgba(11, 61, 145, 0.1);
 }
 
@@ -182,7 +182,7 @@ a {
   left: 0;
   right: 0;
   background: var(--secondary);
-  border-bottom: 1px solid #e5edf8;
+  border-bottom: 1px solid #e3d9c6;
   box-shadow: var(--shadow-md);
   padding: 0.8rem 1rem 1rem;
   flex-direction: column;
@@ -198,7 +198,7 @@ a {
 
 .primary-nav a:hover,
 .primary-nav a:focus-visible {
-  background: #eef4ff;
+  background: #f6eddc;
 }
 
 .primary-nav.open {
@@ -206,8 +206,8 @@ a {
 }
 
 .theme-toggle {
-  border: 1px solid #d1def3;
-  background: #eff4ff;
+  border: 1px solid #ddcfb7;
+  background: #f7efdf;
   color: #0a2f73;
   border-radius: 12px;
   padding: 0.52rem 0.8rem;
@@ -229,7 +229,7 @@ a {
   height: 44px;
   border: 0;
   border-radius: 12px;
-  background: #eff4ff;
+  background: #f7efdf;
   display: grid;
   align-content: center;
   gap: 5px;
@@ -350,7 +350,7 @@ a {
   background: var(--secondary);
   border-radius: var(--radius);
   overflow: hidden;
-  border: 1px solid #e8edf7;
+  border: 1px solid #e3d7c4;
   box-shadow: 0 20px 48px rgba(12, 49, 113, 0.14);
 }
 
@@ -382,7 +382,7 @@ a {
 .course-card,
 .feature-card {
   background: var(--secondary);
-  border: 1px solid #e8edf7;
+  border: 1px solid #e3d7c4;
   border-radius: var(--radius);
   box-shadow: 0 14px 30px rgba(12, 49, 113, 0.1);
   padding: 1.55rem;
@@ -399,7 +399,7 @@ a {
   position: relative;
   overflow: hidden;
   border-top: 4px solid #2b66c2;
-  background: linear-gradient(180deg, #ffffff 0%, #fcfdff 100%);
+  background: linear-gradient(180deg, #fff8ee 0%, #fff1dc 100%);
 }
 
 .course-card::before {
@@ -440,7 +440,7 @@ a {
   border-radius: 18px;
   overflow: hidden;
   position: relative;
-  border: 1px solid #e8edf7;
+  border: 1px solid #e3d7c4;
   box-shadow: 0 18px 42px rgba(12, 49, 113, 0.13);
   background: var(--secondary);
 }
@@ -469,7 +469,7 @@ a {
 
  .contact-info {
   background: var(--secondary);
-  border: 1px solid #e8edf7;
+  border: 1px solid #e3d7c4;
   border-radius: var(--radius);
   box-shadow: 0 18px 42px rgba(12, 49, 113, 0.13);
   padding: 1.55rem;
@@ -488,7 +488,7 @@ a {
 
 .map-wrap {
   border-radius: var(--radius);
-  border: 1px solid #e8edf7;
+  border: 1px solid #e3d7c4;
   box-shadow: 0 18px 42px rgba(12, 49, 113, 0.13);
   background: var(--secondary);
   overflow: hidden;
@@ -623,7 +623,7 @@ a {
 
   .media-card:hover figcaption {
     color: #304a71;
-    background: #f5f9ff;
+    background: #fff5e8;
   }
 
   .course-card li,
@@ -641,7 +641,7 @@ a {
 
   .gallery-item:hover figcaption {
     color: #2f4f7c;
-    background: #f5f9ff;
+    background: #fff5e8;
   }
 
   .site-footer p {
@@ -831,6 +831,7 @@ body[data-theme="dark"] .site-footer {
     transform: none;
   }
 }
+
 
 
 
