@@ -171,13 +171,13 @@ a {
 
 .brand-text strong {
   font-family: "Manrope", sans-serif;
-  font-size: 0.95rem;
+  font-size: 1.23rem;
   color: var(--primary-dark);
 }
 
 .brand-text small {
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 0.95rem;
 }
 
 .primary-nav {
