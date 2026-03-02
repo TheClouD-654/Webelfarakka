@@ -147,12 +147,12 @@ a {
 }
 
 .brand-badge {
-  width: 58px;
-  height: 58px;
-  border-radius: 11px;
+  width: 80px;
+  height: 80px;
+  border-radius: 0px;
   display: grid;
   place-items: center;
-  padding: 5px;
+  padding: 0px;
   overflow: hidden;
 }
 

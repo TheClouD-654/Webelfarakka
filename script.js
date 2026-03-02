@@ -4,12 +4,18 @@ const navLinks = primaryNav.querySelectorAll("a");
 const revealElements = document.querySelectorAll(".reveal");
 const yearNode = document.getElementById("year");
 const themeToggle = document.getElementById("themeToggle");
+const brandLogo = document.getElementById("brandLogo");
 
 const THEME_KEY = "webel-theme";
+const LOGO_LIGHT = "images/Webel_logo_nobg.png";
+const LOGO_DARK = "images/Webel_logo_nobg_fordark.png";
 
 function applyTheme(theme) {
   const resolvedTheme = theme === "dark" ? "dark" : "light";
   document.body.setAttribute("data-theme", resolvedTheme);
+  if (brandLogo) {
+    brandLogo.src = resolvedTheme === "dark" ? LOGO_DARK : LOGO_LIGHT;
+  }
 
   if (themeToggle) {
     themeToggle.textContent = resolvedTheme === "dark" ? "Light Mode" : "Dark Mode";

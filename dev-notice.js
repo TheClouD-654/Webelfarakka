@@ -1,5 +1,5 @@
 ﻿(() => {
-  const SHOW_DEV_NOTICE = false;
+  const SHOW_DEV_NOTICE = true;
   if (!SHOW_DEV_NOTICE) return;
 /// <reference path="./dev-notice.js" />
   const style = document.createElement('style');
