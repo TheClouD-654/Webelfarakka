@@ -49,8 +49,8 @@
       font: 800 clamp(2rem, 7vw, 6rem)/1 "Inter", sans-serif;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: rgba(255, 0, 0, 0.22);
-      text-shadow: 0 0 24px rgba(255, 0, 0, 0.22);
+      color: rgba(221, 209, 39, 0.22);
+      text-shadow: 0 0 24px rgba(0, 0, 0, 0.22);
       animation: devPulse 2.8s ease-in-out infinite;
     }
 
